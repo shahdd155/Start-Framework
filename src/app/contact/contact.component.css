@@ -1,0 +1,22 @@
+input.form-control:focus{
+    box-shadow: none;
+}
+
+label{
+   color: #1abc9c;
+   margin-bottom: 7px;
+   transition: 0.6s top;
+   -webkit-transition: 0.6s top;
+   -moz-transition: 0.6s top;
+   -ms-transition: 0.6s top;
+   -o-transition: 0.6s top;
+}
+
+.top{
+    top: 40px !important;
+}
+
+.contact-btn{
+    background-color: #1abc9c !important;
+    border-color:#1abc9c !important;
+}

@@ -1,0 +1,29 @@
+<section class="contact d-flex justify-content-center align-items-center flex-column">
+    <h2 class="title h1 text-uppercase fw-bolder">contact section</h2>
+<div class="pb-3">
+<div class="line-star bg-color me-3"></div>
+<i class="fa-solid fa-star title  fa-xl"></i>
+<div class="line-star bg-color ms-3"></div>
+</div>
+
+<div class="w-50 m-auto mt-4">
+    <label for="username"  [class.top]="!username" class=" position-relative top-0">UserName: </label>
+    <input type="text" class="form-control border-0 border-bottom py-3 position-relative" id="username" placeholder="UserName" name="username"
+   [(ngModel)]="username">
+
+    <label for="userage"[class.top]="!userage"  class=" position-relative top-0">userAge: </label>
+    <input type="text" class="form-control border-0 border-bottom py-3 position-relative" id="userage" placeholder="userAge" name="userage"
+    [(ngModel)]="userage">
+
+    <label for="useremail" [class.top]="!useremail" class=" position-relative top-0">UserEmail: </label>
+    <input type="email" class="form-control border-0 border-bottom py-3 position-relative" id="useremail" placeholder="UserEmail" name="useremail"
+    [(ngModel)]="useremail">
+
+    <label for="userpassword" [class.top]="!userpassword" class=" position-relative top-0">UserPassword: </label>
+    <input type="password" class="form-control border-0 border-bottom py-3 position-relative" id="userpassword" placeholder="UserPassword" name="userpassword"
+    [(ngModel)]="userpassword">
+
+<button class=" btn contact-btn my-3 text-white">send message</button>
+  </div>
+
+</section>
